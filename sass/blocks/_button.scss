@@ -1,0 +1,20 @@
+.button {
+  display: inline-block;
+  height: 58px;
+  padding-right: 37px;
+  padding-left: 37px;
+
+  background: $accent-color;
+  border-radius: 29px;
+
+  line-height: 58px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background: $accent-color-hover;
+  }
+}

@@ -42,6 +42,14 @@ button {
   border: none;
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
+  background: none;
+}
+
+button,
+input[type=submit] {
+  background: none;
+  cursor: pointer;
 }
 
 input:focus,
@@ -106,10 +114,7 @@ li {
 }
 
 .header__text {
-  margin-bottom: 25px;
-  font-weight: 700;
-  font-size: 54px;
-  line-height: 79px;
+  width: 465px;
 }
 
 .header__text p {
@@ -117,4 +122,76 @@ li {
   font-size: 16px;
   line-height: 27px;
   letter-spacing: 1.15px;
+  margin-bottom: 1em;
+}
+
+.header__title {
+  position: relative;
+  z-index: 9;
+  margin-right: -160px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 79px;
+}
+
+.form {
+  background: #ffffff;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px;
+  height: 58px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form--active {
+  box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27);
+}
+
+.form__label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 72px;
+  height: 100%;
+}
+.form__label::before {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 19px;
+  background-image: url(./../../img/icons/mail.png);
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 15px;
+}
+.form__input::-moz-placeholder {
+  line-height: 24px;
+  color: #bbbbbb;
+}
+.form__input::placeholder {
+  line-height: 24px;
+  color: #bbbbbb;
+}
+
+.button {
+  display: inline-block;
+  height: 58px;
+  padding-right: 37px;
+  padding-left: 37px;
+  background: #f78434;
+  border-radius: 29px;
+  line-height: 58px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
+.button:hover {
+  background: #ff6a00;
 }/*# sourceMappingURL=main.css.map */
