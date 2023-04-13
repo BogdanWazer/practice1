@@ -21,8 +21,14 @@ p {
 
 input,
 button {
+  border: none;
   font-family: inherit;
   font-size: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
 }
 
 ul,
