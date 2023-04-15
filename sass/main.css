@@ -268,10 +268,11 @@ img {
 }
 
 .objects__text {
-  flex-shrink: 0;
-  max-width: 543px;
+  width: 374px;
   padding-left: 181px;
   margin-right: 150px;
+  box-sizing: content-box;
+  flex-shrink: 0;
 }
 .objects__text p + p {
   margin-top: 20px;
@@ -330,4 +331,14 @@ img {
 .card-info__title {
   letter-spacing: 0.8px;
   font-weight: 700;
+}
+
+.cta {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.cta-block {
+  border-radius: 20px;
+  background-color: #58bebf;
 }/*# sourceMappingURL=main.css.map */
