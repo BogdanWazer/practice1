@@ -3,13 +3,20 @@
   padding-top: 86px;
 }
 
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__info {
   max-width: 300px;
-  margin-bottom: 15px;
 }
+
 .footer__info-text {
+  padding-top: 15px;
   margin-bottom: 40px;
 }
+
 .footer__socials {
   display: flex;
   column-gap: 30px;
@@ -20,4 +27,31 @@
   }
 }
 .footer__nav {
+  display: flex;
+  column-gap: 85px;
+}
+
+.footer__nav {
+}
+.footer__nav-block {
+  ul {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+  }
+
+  li {
+    margin-bottom: 13px;
+  }
+
+  a:hover {
+    color: $accent-color;
+  }
+}
+.footer__nav-block__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
 }

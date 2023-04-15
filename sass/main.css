@@ -675,12 +675,17 @@ img {
   padding-top: 86px;
 }
 
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__info {
   max-width: 300px;
-  margin-bottom: 15px;
 }
 
 .footer__info-text {
+  padding-top: 15px;
   margin-bottom: 40px;
 }
 
@@ -692,4 +697,30 @@ img {
 }
 .footer__socials a:hover {
   opacity: 0.8;
+}
+
+.footer__nav {
+  display: flex;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+}
+
+.footer__nav-block ul {
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}
+.footer__nav-block li {
+  margin-bottom: 13px;
+}
+.footer__nav-block a:hover {
+  color: #f78434;
+}
+
+.footer__nav-block__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
 }/*# sourceMappingURL=main.css.map */
