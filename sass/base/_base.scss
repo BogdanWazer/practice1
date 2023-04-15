@@ -11,6 +11,19 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  &-fluid {
+    width: 100%;
+  }
+}
+
+.container--fluid {
+  max-width: unset;
+  width: 100%;
+}
+
+.container--no-padding {
+  padding: 0;
 }
 
 .none {
