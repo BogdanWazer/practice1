@@ -560,7 +560,6 @@ img {
   background-repeat: no-repeat;
   width: 80px;
   height: 80px;
-  background-image: url(./../../img/testimonials/Design\ element.svg);
 }
 
 .card-testimonial {
@@ -625,4 +624,10 @@ img {
 }
 .card-testimonial:hover .card-testimonial__city {
   color: #f78434;
+}
+
+.contacts {
+  padding-top: 200px;
+  background-image: url(../../img/footer/bg.svg);
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */
