@@ -1,6 +1,8 @@
+html,
 body {
   font-family: "Poppins", sans-serif;
   color: #323232;
+  line-height: 1.6875;
 }
 
 .container {
@@ -9,6 +11,10 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.none {
+  display: none;
 }
 
 html,
@@ -60,6 +66,11 @@ button:focus {
 ul,
 li {
   list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .nav {
@@ -135,6 +146,14 @@ li {
   line-height: 79px;
 }
 
+.header__img img {
+  border-radius: 40px 40px 40px 0px;
+}
+
+.header__form {
+  margin-top: 42px;
+}
+
 .form {
   background: #ffffff;
   box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
@@ -186,6 +205,7 @@ li {
   background: #f78434;
   border-radius: 29px;
   line-height: 58px;
+  align-items: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -194,4 +214,67 @@ li {
 }
 .button:hover {
   background: #ff6a00;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.clients__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.objects__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.object__title {
+  margin-bottom: 20px;
+}
+
+.objects__img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.objects__text {
+  max-width: 543px;
+  padding-left: 181px;
+}
+.objects__text p + p {
+  margin-top: 20px;
+}
+
+.objects__button {
+  line-height: 58px;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
+.img-card + .img-card {
+  margin-left: 32px;
+}
+
+.img-card__img {
+  border-radius: 20px 20px 0px 20px;
+}
+.img-card--rounded .img-card__img {
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
