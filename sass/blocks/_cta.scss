@@ -3,7 +3,52 @@
   padding-bottom: 70px;
 }
 
-.cta-block {
+.cta__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  padding-right: 95px;
+
   border-radius: 20px;
   background-color: #58bebf;
+}
+
+.cta__img {
+  margin-top: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  margin-right: 96px;
+  background: white;
+  border-radius: 0 20px 0 0;
+}
+.cta__text {
+  background: url(../../img/cta/oval_top-right.svg) top right,
+    url(../../img/cta/Oval_bottom-left.svg) bottom left;
+
+  background-repeat: no-repeat;
+
+  width: 555px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    width: 320px;
+  }
+
+  letter-spacing: 1.15px;
+  color: #ffffff;
+}
+
+.cta__title {
+  margin-bottom: 15px;
+}
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px;
 }

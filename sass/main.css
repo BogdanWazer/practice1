@@ -220,12 +220,38 @@ img {
   align-items: center;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
   color: #fff;
   transition: background-color 0.2s ease-in;
 }
 .button:hover {
   background: #ff6a00;
+}
+.button--white {
+  background-color: #fff;
+  color: #323232;
+}
+.button--white:hover {
+  background-color: #323232;
+  color: #fff;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+.button--play {
+  position: relative;
+  padding-left: 50px;
+}
+.button--play::before {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: 1px;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("./../../img/icons/play.svg");
+  background-size: initial;
+  background-repeat: no-repeat;
 }
 
 .clients {
@@ -338,7 +364,46 @@ img {
   padding-bottom: 70px;
 }
 
-.cta-block {
+.cta__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 95px;
   border-radius: 20px;
   background-color: #58bebf;
+}
+
+.cta__img {
+  margin-top: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  margin-right: 96px;
+  background: white;
+  border-radius: 0 20px 0 0;
+}
+
+.cta__text {
+  background: url(../../img/cta/oval_top-right.svg) top right, url(../../img/cta/Oval_bottom-left.svg) bottom left;
+  background-repeat: no-repeat;
+  width: 555px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 1.15px;
+  color: #ffffff;
+}
+.cta__text p {
+  width: 320px;
+}
+
+.cta__title {
+  margin-bottom: 15px;
+}
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }/*# sourceMappingURL=main.css.map */
