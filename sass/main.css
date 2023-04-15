@@ -627,7 +627,69 @@ img {
 }
 
 .contacts {
+  position: relative;
   padding-top: 200px;
+  padding-bottom: 55px;
   background-image: url(../../img/footer/bg.svg);
   background-size: cover;
+  color: #fff;
+}
+.contacts::before {
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  content: "";
+  display: block;
+  width: 743px;
+  height: 372px;
+  background-image: url(./../../img/footer/oval.svg);
+  background-size: initial;
+}
+.contacts::after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: 79px;
+  content: "";
+  display: block;
+  width: 478px;
+  height: 547px;
+  background-image: url(./../../img/footer/girl.png);
+  background-size: initial;
+}
+
+.contacts__title {
+  margin-bottom: 15px;
+}
+
+.contacts__text {
+  margin-bottom: 30px;
+}
+
+.contacts__info {
+  max-width: 362px;
+}
+
+.footer {
+  padding-bottom: 82px;
+  padding-top: 86px;
+}
+
+.footer__info {
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.footer__info-text {
+  margin-bottom: 40px;
+}
+
+.footer__socials {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  align-items: center;
+}
+.footer__socials a:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */

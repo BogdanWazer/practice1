@@ -1,0 +1,23 @@
+.footer {
+  padding-bottom: 82px;
+  padding-top: 86px;
+}
+
+.footer__info {
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.footer__info-text {
+  margin-bottom: 40px;
+}
+.footer__socials {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+
+  a:hover {
+    opacity: 0.8;
+  }
+}
+.footer__nav {
+}
