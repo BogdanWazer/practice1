@@ -1,0 +1,19 @@
+.benefit-item {
+  text-align: center;
+
+  p {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.15px;
+  }
+}
+.benefit-item__img {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.benefit-item__title {
+  margin-bottom: 2px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+  line-height: 42px;
+}

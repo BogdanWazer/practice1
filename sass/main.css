@@ -483,4 +483,93 @@ img {
 .card-customer__text {
   margin-bottom: 25px;
   letter-spacing: 1.15px;
+}
+
+.benefits {
+  padding-bottom: 110px;
+}
+
+.benefits__heading {
+  text-align: center;
+  padding-bottom: 58px;
+}
+
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+
+.benefit-item {
+  text-align: center;
+}
+.benefit-item p {
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+}
+
+.benefit-item__img {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.benefit-item__title {
+  margin-bottom: 2px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.testimonials {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.testimonials__heading {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials__title {
+  max-width: 460px;
+  letter-spacing: 0.8px;
+  font-size: 42px;
+  line-height: 62px;
+}
+
+.testimonials__subtitle {
+  max-width: 400px;
+}
+
+.testimonials__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-testimonial {
+  display: inline-block;
+  max-width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-testimonial__body {
+  padding: 30px;
+}
+
+.card-testimonial__body p {
+  margin-bottom: 23px;
+}
+
+.card-testimonial__name {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.card-testimonial__city {
+  color: #f78434;
 }/*# sourceMappingURL=main.css.map */

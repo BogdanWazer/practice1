@@ -1,0 +1,24 @@
+.card-testimonial {
+  display: inline-block;
+  max-width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-testimonial__img {
+}
+.card-testimonial__body {
+  padding: 30px;
+}
+
+.card-testimonial__body p {
+  margin-bottom: 23px;
+}
+
+.card-testimonial__name {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.card-testimonial__city {
+  color: #f78434;
+}
